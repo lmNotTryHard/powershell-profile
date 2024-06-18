@@ -1,5 +1,7 @@
 ### PowerShell Profile
 
+Set-Alias winfetch pwshfetch-test-1
+
 # Initial GitHub.com connectivity check with 1 second timeout
 $canConnectToGitHub = Test-Connection github.com -Count 1 -Quiet -TimeoutSeconds 1
 
